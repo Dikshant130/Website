@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-
+import alt from "../img/alt.png";
+import sin from "../img/sin.png";
+import hom from "../img/hom.png";
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
@@ -18,7 +20,25 @@ export const PricingSection = styled.div`
     height: 100%;
   }
 `;
-
+const Circle = styled.img`
+  border-radius: 50%;
+  width: 10.2rem;
+  height: 10.2rem;
+  padding: 0.5rem;
+  object-fit: cover;
+  opacity: 0.8;
+  margin: 1rem;
+  cursor: pointer;
+  z-index: 100;
+  background-color: #333;
+  &:hover {
+    opacity: 1;
+  }
+  /* Mobile devices iPhone, Pixel */
+  @media only screen and (min-width: 320px) and (max-width: 539px) {
+    margin: auto;
+  }
+`;
 export const PricingWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -62,8 +82,8 @@ export const PricingContainer = styled.div`
 export const PricingCard = styled(motion.div)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 280px;
-  height: 500px;
+  width: 200px;
+  height: 400px;
   text-decoration: none;
   border-radius: 4px;
   &:nth-child(2) {
@@ -110,8 +130,8 @@ export const PricingCardPlan = styled.h3`
   font-size: 24px;
 `;
 
-export const PricingCardCost = styled.h4`
-  font-size: 40px;
+export const PricingCardTag = styled.h4`
+  font-size: 18px;
 `;
 
 export const PricingCardLength = styled.p`
@@ -119,18 +139,6 @@ export const PricingCardLength = styled.p`
   padding: 1rem;
 `;
 
-export const PricingCardFeatures = styled.ul`
-  margin: 16px 0 32px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #f7f7f7;
-`;
-
-export const PricingCardFeature = styled.li`
-  margin-bottom: 10px;
-`;
 const SubsAndPacks = () => {
   return (
     <PricingSection>
@@ -139,44 +147,30 @@ const SubsAndPacks = () => {
         <PricingContainer>
           <PricingCard>
             <PricingCardInfo>
-              <PricingCardIcon></PricingCardIcon>
-              <PricingCardPlan>ABc</PricingCardPlan>
-              <PricingCardCost>$99.99</PricingCardCost>
-              <PricingCardLength>per month</PricingCardLength>
-              <PricingCardFeatures>
-                <PricingCardFeature>100 New Users</PricingCardFeature>
-                <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                <PricingCardFeature>Retargeting analytics</PricingCardFeature>
-              </PricingCardFeatures>
-              <button>Choose Plan</button>
+            <Circle src={sin} alt="Sinmag icon" />
+              <PricingCardPlan>SINMAG</PricingCardPlan>
+              <PricingCardTag>$99.99</PricingCardTag>
+              <PricingCardLength></PricingCardLength>
+              <button>View</button>
             </PricingCardInfo>
           </PricingCard>
           <PricingCard>
             <PricingCardInfo>
-              <PricingCardIcon></PricingCardIcon>
-              <PricingCardPlan>XYZ</PricingCardPlan>
-              <PricingCardCost>$299.99</PricingCardCost>
-              <PricingCardLength>per month</PricingCardLength>
-              <PricingCardFeatures>
-                <PricingCardFeature>1000 New Users</PricingCardFeature>
-                <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
-              </PricingCardFeatures>
-              <button>Choose Plan</button>
+            <Circle src={hom} alt="Homat icon" />
+            <PricingCardPlan>HOMAT</PricingCardPlan>
+              <PricingCardTag>$299.99</PricingCardTag>
+              <PricingCardLength></PricingCardLength>
+              <button>View</button>
             </PricingCardInfo>
           </PricingCard>
           <PricingCard>
             <PricingCardInfo>
-              <PricingCardIcon></PricingCardIcon>
-              <PricingCardPlan>Mews</PricingCardPlan>
-              <PricingCardCost>$999.99</PricingCardCost>
-              <PricingCardLength>per month</PricingCardLength>
-              <PricingCardFeatures>
-                <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                <PricingCardFeature>24/7 Support</PricingCardFeature>
-              </PricingCardFeatures>
-              <button>Choose Plan</button>
+            <Circle src={alt} alt="Altuntop icon" />
+            <PricingCardPlan>ALTUNTOP</PricingCardPlan>
+              <PricingCardTag>$999.99</PricingCardTag>
+              <PricingCardLength></PricingCardLength>
+
+              <button>View</button>
             </PricingCardInfo>
           </PricingCard>
         </PricingContainer>

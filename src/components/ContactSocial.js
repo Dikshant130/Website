@@ -248,7 +248,7 @@ const ContactSocial = () => {
             </Social>
           </Hide>
           <AddressBox>
-            <h2>Nerut, Ibdia</h2>
+            <h2>Merut, Ibdia</h2>
             <p>Meowland</p>
           </AddressBox>
           <AddressBox>

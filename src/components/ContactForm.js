@@ -150,7 +150,7 @@ const ContactForm = () => {
         />
 
         <label> Your Interests</label>
-        <input name="Interest" type="text" placeholder="Photography" />
+        <input name="Interest" type="text" placeholder="Quotation" />
 
         <label> Your Message</label>
         <textarea

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.dae2ceb1.chunk.css",
-    "main.js": "/static/js/main.c469dd5f.chunk.js",
-    "main.js.map": "/static/js/main.c469dd5f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6c18bc74.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6c18bc74.js.map",
-    "static/js/2.92c235aa.chunk.js": "/static/js/2.92c235aa.chunk.js",
-    "static/js/2.92c235aa.chunk.js.map": "/static/js/2.92c235aa.chunk.js.map",
-    "static/js/3.8770a257.chunk.js": "/static/js/3.8770a257.chunk.js",
-    "static/js/3.8770a257.chunk.js.map": "/static/js/3.8770a257.chunk.js.map",
+    "main.js": "/static/js/main.bb5dffd0.chunk.js",
+    "main.js.map": "/static/js/main.bb5dffd0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d44abca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d44abca.js.map",
+    "static/js/2.cfbb099a.chunk.js": "/static/js/2.cfbb099a.chunk.js",
+    "static/js/2.cfbb099a.chunk.js.map": "/static/js/2.cfbb099a.chunk.js.map",
+    "static/js/3.31364e11.chunk.js": "/static/js/3.31364e11.chunk.js",
+    "static/js/3.31364e11.chunk.js.map": "/static/js/3.31364e11.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.dae2ceb1.chunk.css.map": "/static/css/main.dae2ceb1.chunk.css.map",
-    "static/js/2.92c235aa.chunk.js.LICENSE.txt": "/static/js/2.92c235aa.chunk.js.LICENSE.txt",
+    "static/js/2.cfbb099a.chunk.js.LICENSE.txt": "/static/js/2.cfbb099a.chunk.js.LICENSE.txt",
     "static/media/athlete-small.9c7a85d4.png": "/static/media/athlete-small.9c7a85d4.png",
     "static/media/athlete2.b216a5ad.png": "/static/media/athlete2.b216a5ad.png",
     "static/media/clock.4b7cde7e.svg": "/static/media/clock.4b7cde7e.svg",
@@ -29,13 +29,12 @@
     "static/media/the-racer2.580f15cd.jpg": "/static/media/the-racer2.580f15cd.jpg",
     "static/media/theracer-small.51874213.png": "/static/media/theracer-small.51874213.png",
     "static/media/twitter-logo.28db309d.svg": "/static/media/twitter-logo.28db309d.svg",
-    "static/media/video-pause.13316bc0.svg": "/static/media/video-pause.13316bc0.svg",
-    "static/media/youtube-logo.88aa5cf8.svg": "/static/media/youtube-logo.88aa5cf8.svg"
+    "static/media/video-pause.13316bc0.svg": "/static/media/video-pause.13316bc0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c18bc74.js",
-    "static/js/2.92c235aa.chunk.js",
+    "static/js/runtime-main.5d44abca.js",
+    "static/js/2.cfbb099a.chunk.js",
     "static/css/main.dae2ceb1.chunk.css",
-    "static/js/main.c469dd5f.chunk.js"
+    "static/js/main.bb5dffd0.chunk.js"
   ]
 }
