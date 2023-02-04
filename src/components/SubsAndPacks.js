@@ -4,6 +4,9 @@ import styled from "styled-components";
 import alt from "../img/alt.png";
 import sin from "../img/sin.png";
 import hom from "../img/hom.png";
+import sinf from '../catalog/sinf.pdf';
+import homf from '../catalog/homf.pdf';
+import altf from '../catalog/altf.pdf';
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
@@ -131,7 +134,7 @@ export const PricingCardPlan = styled.h3`
 `;
 
 export const PricingCardTag = styled.h4`
-  font-size: 18px;
+  font-size: 5px;
 `;
 
 export const PricingCardLength = styled.p`
@@ -149,28 +152,52 @@ const SubsAndPacks = () => {
             <PricingCardInfo>
             <Circle src={sin} alt="Sinmag icon" />
               <PricingCardPlan>SINMAG</PricingCardPlan>
-              <PricingCardTag>$99.99</PricingCardTag>
+              <PricingCardTag>
+              <a href="http://www.sinmag.com/blank1.html?introId=1&t=1524815443385" target="_blank" rel="noreferrer">
+                Know us
+                </a>
+              </PricingCardTag>
               <PricingCardLength></PricingCardLength>
+              <div>
+              <a href={altf} target="_blank" rel="noreferrer">
               <button>View</button>
-            </PricingCardInfo>
+              </a>
+              </div>
+              </PricingCardInfo>
           </PricingCard>
           <PricingCard>
             <PricingCardInfo>
             <Circle src={hom} alt="Homat icon" />
             <PricingCardPlan>HOMAT</PricingCardPlan>
-              <PricingCardTag>$299.99</PricingCardTag>
+              <PricingCardTag>
+              <a href="http://en.homat.com.cn/about.html" target="_blank" rel="noreferrer">
+                Know us
+                </a>
+              </PricingCardTag>
               <PricingCardLength></PricingCardLength>
+              <div>
+              <a href={altf} target="_blank" rel="noreferrer">
               <button>View</button>
-            </PricingCardInfo>
+              </a>
+              </div>
+              </PricingCardInfo>
           </PricingCard>
           <PricingCard>
             <PricingCardInfo>
             <Circle src={alt} alt="Altuntop icon" />
             <PricingCardPlan>ALTUNTOP</PricingCardPlan>
-              <PricingCardTag>$999.99</PricingCardTag>
+              <PricingCardTag>
+              <a href="https://www.altuntop.com/altmenu-hakkimizda-4" target="_blank" rel="noreferrer">
+                Know us
+                </a>
+              </PricingCardTag>
               <PricingCardLength></PricingCardLength>
-
+              <div>
+              <a href={altf} target="_blank" rel="noreferrer">
               <button>View</button>
+              </a>
+              </div>
+
             </PricingCardInfo>
           </PricingCard>
         </PricingContainer>

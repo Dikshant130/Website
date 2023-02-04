@@ -124,7 +124,7 @@ const ContactForm = () => {
     >
       <FormTitle variants={titleAnimation}>
         <Hide>
-          <motion.h4>Let's work together</motion.h4>
+          <motion.h4>We are at your service!</motion.h4>
           <motion.p>
             Contact us for any query and sales opportunity.
           </motion.p>
@@ -156,7 +156,7 @@ const ContactForm = () => {
         <textarea
           name="message"
           rows="4"
-          cols="50"
+          cols="20"
           wrap="hard"
           placeholder="Type your message"
         ></textarea>
